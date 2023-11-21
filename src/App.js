@@ -18,7 +18,7 @@ function App() {
             <Route path="/app" component={CustomerRootPage}></Route>
             {/* Admin Routers */}
             <Route path="/admin" component={RootPage}></Route>
-            <Route exact path="" component={NotFoundPage} />
+            <Route exact path="" component={CustomerRootPage} />
           </Switch>
         </Router>
       </div>
